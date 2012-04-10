@@ -1,0 +1,775 @@
+/* general section start*/
+
+*{
+	color: #333;
+}
+
+a {
+	color:#006699;
+}
+h1{
+	font-size:1.6em;
+	line-height:1em;
+	margin-bottom:12px;
+	margin-top:24px;
+	font-weight:700;
+}
+
+h2{
+	font-size:1em;
+	font-weight:700;
+}
+
+h1 *, h2 *, h3, h4, h5, h6 {
+	font-weight:700;
+}
+
+#container {
+	width:960px;
+	margin:0 auto;
+}
+
+#wrapper{
+	overflow:hidden;
+}
+
+#blogHeader {
+	background-color:#2d2d2d;
+	height:2em;
+}
+
+article.post p{
+	font-weight:400;
+	font-size:0.9em;
+}
+
+article.post h1{
+	font-size:1.3em;
+}
+
+article.page,
+article.post,
+section.page{
+	float:left;
+	width:700px;
+	line-height:1.5em;
+	border-right:1px solid #CCC;
+}
+
+article.page footer,
+article.post footer{
+	border-top:1px dotted #CCCCCC;
+	line-height:2em;
+}
+
+#blogSidebar{
+	width:240px;
+	float:right;
+	margin-top: 24px;
+}
+
+.tags {
+	list-style:none;
+}
+
+.tags li{
+	display:inline;
+}
+
+.tags li a{
+	font-size:0.8em;
+	text-decoration: none;
+	background-color:#ededed;
+	color:#666;
+	margin-right:4px;
+	border-bottom:1px dotted #666;
+	padding:0 0.4em;
+}
+
+.tags li a:hover {
+	color:#FFF;
+	background-color:#333;
+	border-bottom:1px solid #333;
+}
+
+.careerTitle{
+	font-size:0.8em;
+	background-color:#ededed;
+	color:#666;
+	border-bottom:1px dotted #666;
+	padding:0 0.4em;
+}
+
+body.single-post article.post {
+	min-height:700px;
+} 
+
+/* general section end */
+
+/* page default */
+article.page > section {
+	font-size:15px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+.page h1{
+	font-family: Georgia,Times,serif;
+	line-height: 48px;
+}
+
+article.page h2{
+	font-family: Georgia, Times, serif;
+	font-size:24px;
+	line-height:48px;
+	margin-left:-20px;
+}
+
+article.page h3{
+	font-family: Georgia, Times, serif;
+	font-size:18px;
+	line-height:36px;
+	margin-top:12px;
+}
+article.page dl{
+	margin:8px 0 8px 24px;
+	line-height:26px;
+}
+
+article.page dd{
+	font-weight:400;
+}
+
+article.page dt{
+	float:left;
+	font-weight:700;
+	width:210px;
+}
+
+article.page strong{
+	font-weight:bold;
+}
+
+article.page ul{
+	/* margin:12px 0; */
+	line-height:26px;
+	padding-left:20px;
+}
+
+article.page li{
+	display:list-item;
+	font-weight:400;
+}
+article.page p{
+	margin:12px 0;
+}
+
+
+
+/* header section start */
+
+#blogHeader a{
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:2em;
+}
+
+#blogHeader li{
+	list-style:none;
+	float:left;
+}
+
+#blogHeader nav{
+	float: left;
+	line-height:2em;
+}
+
+#blogHeader nav li {
+	margin-left:16px;
+}
+
+#blogHeader nav li a {
+	float:left;
+}
+
+#follow{
+	float:right;
+	line-height:2em;
+	height:2em;
+}
+
+#follow li{
+	width: 1em;
+	height: 1em;
+	line-height:1em;
+	margin-right:8px;
+	margin-top:8px;
+}
+
+#follow a{
+	background-image:url('img/follow.png');
+	background-repeat: no-repeat;
+	display:inline-block;
+	width:1em;
+	height:1em;
+}
+
+#follow span{
+	display:none;
+}
+
+#follow .rss{
+	background-position: 0 0;
+}
+
+#follow .github{
+	background-position: -1em 0;
+}
+
+#follow .linkedin{
+	background-position: -2em 0;
+}
+
+#follow .twitter{
+	background-position: -3em 0;
+}
+
+#follow .delicious{
+	background-position: -4em 0;
+}
+
+#follow .flickr{
+	background-position: -5em 0;
+}
+
+#follow .slideshare{
+	background-position: -6em 0;
+}
+
+/* header section end */
+
+
+
+
+/* aside section start*/
+
+#categories li,
+#projects li,
+#blogroll li {
+	list-style:none;
+}
+
+#aboutAuthor {
+	overflow:hidden;
+}
+
+.authorTitle,
+.authorName{
+	font-size:0.9em;
+	display:block;
+	float:left;
+	margin-left:12px;
+}
+
+.authorName {
+	font-weight:700;
+	margin-top:6px;
+	margin-bottom:4px;
+}
+
+#aboutAuthor img{
+	float:left;
+}
+
+aside section,
+aside nav{
+	margin-bottom:12px;
+}
+
+#blogSidebar a {
+	color:gray;
+}
+
+#blogSidebar h4 {
+	color:#006699;
+	border-bottom:1px dotted #CCC;
+	line-height:1.8em;
+	margin-left:-18px;
+	padding-left:18px;
+}
+
+#blogSidebar li a {
+	list-style:none;
+	text-decoration:none;
+	font-size:0.9em;
+	font-weight:400;
+}
+
+#blogSidebar li a:hover {
+	color:#333;
+}
+
+#blogSidebar li {
+	line-height:1.2em;
+}
+
+/* aside section end*/
+
+
+
+
+/* content section start*/
+
+#codesHeader h1 a{
+	color:#00bcfe;
+	text-decoration:none;
+}
+
+#codesHeader h1 a:hover,
+#careerHeader h1 a:hover,
+#postListHeader h1 a:hover {
+	background-color:#2D2D2D;
+	color:#FFF;
+}
+
+#careerHeader h1 a{
+	color:#0cfe00;
+	text-decoration:none;
+}
+
+#postListHeader h1 a{
+	color:#fe4100;
+	text-decoration:none;
+}
+
+#codesHeader p,
+#careerHeader p,
+#postListHeader p{
+	margin-top:-12px;
+	margin-bottom:12px;
+	font-size:0.8em;
+	font-weight:700;
+}
+
+#codes{
+	overflow:hidden;
+}
+
+.column {
+	margin-bottom:12px;
+	float:left;
+	width:350px;
+}
+
+.headerTitle,
+#comments time {
+	color:gray;
+	font-size:0.8em;
+	line-height:1.2em;
+	font-family: Georgia, Times, serif;
+}
+
+#career article h2{
+	display:inline;
+}
+
+#blog article h2 {
+	display:inline;
+}
+
+#blog article{
+	margin-bottom:12px;
+}
+
+.post-categories {
+	list-style:none;
+	display:inline;
+}
+
+.post-categories li {
+	list-style:none;
+	display:inline;
+
+}
+.post-categories a{
+	font-weight:400;
+	font-size:0.8em;
+}
+
+article.post > * {
+	font-size:0.9em;
+	text-align:justify;
+	line-height:1.5em;
+	font-weight:400;
+	margin-top:12px;
+	margin-right:20px;
+	margin-bottom:6px;
+	/* margin-left:12px; */
+}
+
+article.post header ul,
+article.post footer ul{
+	padding:0;
+	margin:0;
+	display:inline;
+}
+
+article.post header ul li{
+		display:inline;
+}
+
+article.post footer ul li{
+		display:inline;
+}
+
+article.post > p a:hover {
+	background-color:#EAF4F9;
+	text-decoration:none;
+}
+
+article.post > p h1{
+	font-size:1.3em;
+}
+
+article.post > p strong{
+	font-weight:bold;
+}
+
+article.post ul{
+	margin:12px 0;
+	padding-left:40px;
+}
+
+article.post ul li{
+	display:list-item;
+	font-weight:400;
+}
+
+article.post dl{
+	margin-left:12px;
+}
+
+article.post dd{
+	font-weight:400;
+}
+
+article.post dt{
+	float:left;
+	font-weight:700;
+	width:250px;
+}
+
+article.post > p h2{
+	font-family: Georgia, Times, serif;
+	font-size:1.5em;
+	margin-top:30px;
+	margin-bottom:10px;
+}
+
+article.post > p h3{
+	font-size:1em;
+	margin-top:25px;
+	margin-bottom:15px;
+	border-bottom:1px dotted #CCCCCC;
+	color:#006699;
+}
+
+#postSuggestion article h3 {
+	display:inline;
+}
+
+#postSuggestion article h3 a {
+	font-size:0.9em;
+}
+
+#postSuggestion .tags {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+#postSuggestion .tags li {
+	display:inline;
+}
+
+#postSuggestion article {
+	margin-top:4px;
+	margin-left:16px;
+}
+
+.postAttributeSection{
+	text-align:left !important;
+}
+
+.postAttributeSection,
+#respond{
+	margin-top:32px;
+}
+
+.postAttributeSection h2,
+#reply-title {
+	font-size:1.1em;
+	font-weight:300;
+	background-color:#2D2D2D;
+	color:#FFF;
+	display:inline;
+	padding:3px 8px;
+}
+
+.comment {
+	min-height:60px;
+	margin-left:16px;
+	margin-top:24px;
+	overflow:hidden;
+}
+
+.comment header{
+	float:left;
+	width:170px;
+	font-family: Georgia, Times, serif;
+}
+
+.comment header h3 {
+	font-size:0.8em;
+	font-weight:400;
+	font-family: Georgia, Times, serif;
+	text-transform: lowercase;
+}
+
+.comment header a {
+	font-weight:400;
+	font-family: Georgia, Times, serif;
+}
+
+.comment p {
+	float:left;
+	font-size:0.9em;
+	font-weight:400;
+	min-height:60px;
+	width:480px;
+	border-left:1px solid #CCC;
+	padding-left:10px;
+	text-align:left !important;
+}
+
+#commentform label{
+	display:block;
+	margin-left:16px;
+	margin-top:24px;
+	font-family: Georgia, Times, serif;
+}
+
+.comment-outofdate{
+       	background-color:#efefef !important;
+        padding:5px !important;
+        text-align:center !important;
+        margin:20px 0 !important;
+	color:gray !important;
+}
+
+.required {
+	color:gray;
+	font-family: Georgia, Times, serif;
+}
+
+#comment{
+	margin-left:16px;
+	width:635px;
+}
+
+.form-allowed-tags {
+	margin-left:16px;
+	width:635px;
+	color:gray;
+	font-size:0.8em !important;
+}
+.form-allowed-tags code {
+	color:gray;
+}
+#url, #email, #author {
+	display:block;
+	margin-left:16px;
+	width:300px;
+}
+
+#submit{
+	margin-left:16px;
+	margin-top:25px;
+	font-size:0.8em;
+	font-weight:400;
+}
+
+#page-navigation {
+	clear:both;
+	float:left;
+	width:700px;
+}
+
+#page-navigation ul{
+	overflow:hidden;
+	margin-top:25px;
+	float:right;
+	width:210px;
+	margin-right:250px;
+}
+
+#page-navigation li{
+	float:left;
+	line-height:1.2em;
+}
+
+#next-page-link{
+	margin-left:10px;
+}
+
+pre, code {
+	background-color:#EDEDED !important;
+	font-size:0.9em;
+	border:none !important;
+	line-height:1.5em;
+}
+
+pre span, code span {
+	font-family: monospace, serif !important;
+}
+
+/* pre.inline, */ 
+
+code.inline{
+	display: inline !important;
+	margin: 0 !important;
+	padding: 1px 5px 2px 5px;
+}
+
+code.block{
+	display:block !important;
+	padding:10px !important;
+	text-align:left;
+	/* margin:20px 20px 20px 0; */
+}
+
+
+/* content section end */
+
+/* footer section start*/
+
+#blogFooter {
+	border-top:1px solid #CCC;
+	line-height:4em;
+	color:gray;
+	font-size:0.8em;
+	margin-top:32px;
+}
+
+#blogFooter a{
+	color:gray;
+}
+
+/* footer section end*/
+
+
+/* page spesific - cv */
+
+#interests section,
+#works section{
+	margin-left:25px;
+}
+
+#cv {
+	line-height:1.7em;
+}
+
+#cv p {
+	font-size:1em;
+	text-align:justify;
+	line-height:1.7em;
+	font-weight:400;
+	margin-top:12px;
+	margin-right:20px;
+	margin-bottom:6px;
+	/* margin-left:12px; */
+}
+
+#cv a:hover {
+	background-color:#EAF4F9;
+	text-decoration:none;
+}
+
+#cv strong{
+	font-weight:bold;
+}
+
+#cv ul{
+	margin:12px 0;
+	padding-left:40px;
+}
+
+#cv ul li{
+	display:list-item;
+	font-weight:400;
+}
+
+#cv dl{
+	margin-left:12px;
+}
+
+#cv dd{
+	font-weight:400;
+}
+
+#cv dt{
+	float:left;
+	font-weight:700;
+	width:250px;
+}
+
+#cv h2{
+	font-size:1.5em;
+	font-family: Georgia, Times, serif;
+	/*margin-top:50px;
+	margin-bottom:20px;*/
+}
+
+#cv h3{
+	font-size:1em;
+	/* margin-top:35px; */
+	border-bottom:1px dotted #CCCCCC;
+	color:#006699;
+}
+
+
+
+/* page spesific - home page*/
+
+.highlight{
+	color:#FE4100;
+	font-weight:400;
+	font-size:0.9em;
+}
+
+#homeText p{
+	margin-top:15px;
+}
+
+/* page spesific - project pages*/
+
+#periodic-updater-demo {
+	background-color: #FFFFCC;
+	border: 1px dotted #999999;
+	padding: 10px;
+}
+
+#periodic-updater-output {
+	background-color: #FFFFFF;
+	font-size: 11px;
+	height: 180px;
+	list-style-position: inside;
+	list-style-type: decimal;
+	margin: 10px;
+	overflow: auto;
+	padding: 0 0 0 10px;
+	line-height:1em;
+}
+
+
+
