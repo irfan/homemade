@@ -1,6 +1,6 @@
 </div>
 <footer id="blogFooter">
-	Backend <a href="http://wordpress.com">WordPress</a> | Frontend <a href="http://irfandurmus.com/projects/homemade">Homemade</a>
+	Backend <a href="http://wordpress.com">WordPress</a> | Frontend <a href="http://github.com/irfan/homemade">Homemade</a>
 </footer>
         </div>
 <script type="text/javascript">
