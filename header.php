@@ -8,13 +8,7 @@
 		<?php add_theme_support( 'automatic-feed-links' ); ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/reset.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css" type="text/css" media="screen" />
-		
 		<link href="<?php bloginfo('template_directory') ?>/prettify/prettify.css" type="text/css" rel="stylesheet" />
-
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-		<script src="<?php bloginfo('template_directory') ?>/prettify/prettify.js" type="text/javascript"></script>
-		<script src="<?php bloginfo('template_directory') ?>/main.js" type="text/javascript"></script>
-		
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
