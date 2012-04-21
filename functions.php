@@ -24,7 +24,7 @@ function getBlogSummary(){
 	
 	$custom = get_post_custom($id);
 	$blog['header'] = $custom['alternate_title'][0];
-	$blog['description'] = $custom['description'][0];
+	$blog['description'] = $custom['_aioseop_description'][0];
 	$blog['url'] = get_permalink($id);
 
 	return $blog;
@@ -84,7 +84,7 @@ function getCareerSummary($id = false){
 	$career 			= get_post_custom($id);
 	$result['header']['permalink'] 	= get_permalink($id);
 	$result['header']['title']	= $career['alternate_title'][0];
-	$result['header']['description']= $career['description'][0];
+	$result['header']['description']= $career['_aioseop_description'][0];
 
 	foreach ($career['Company'] as $company){
 		$parts = explode('|', $company);

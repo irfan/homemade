@@ -3,7 +3,7 @@
 <section id="blog">
 	<header id="postListHeader">
 	<h1><a href="<?= $blog['url']; ?>"><?= $blog['header']; ?></a></h1>
-		<p><?= $blog['_aioseop_description']; ?></p>
+		<p><?= $blog['description']; ?></p>
 	</header>
 <?php
 

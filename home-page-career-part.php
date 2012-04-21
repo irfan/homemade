@@ -7,7 +7,7 @@
 <section id="career">
 	<header id="careerHeader">
 		<h1><a href="<?= $careerHeader['permalink']; ?>"><?= $careerHeader['title']; ?></a></h1>
-		<p><?= $careerHeader['_aioseop_description']; ?></p>
+		<p><?= $careerHeader['description']; ?></p>
 		</header>
 	<? foreach ($companies as $company): ?>
 	<article class="column">
