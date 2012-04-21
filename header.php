@@ -11,7 +11,7 @@
 		
 		<link href="<?php bloginfo('template_directory') ?>/prettify/prettify.css" type="text/css" rel="stylesheet" />
 
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
 		<script src="<?php bloginfo('template_directory') ?>/prettify/prettify.js" type="text/javascript"></script>
 		<script src="<?php bloginfo('template_directory') ?>/main.js" type="text/javascript"></script>
 		
