@@ -147,10 +147,3 @@ function close_comments($posts) {
 
 add_filter('the_posts', 'close_comments');
 
-?>
-
-
-
-
-
-
